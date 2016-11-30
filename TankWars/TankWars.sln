@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camp-code", "camp-code", "{
 		camp-code\TankInfo.csx = camp-code\TankInfo.csx
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{6865DC8E-F6C2-4F37-BBAB-B3F8E6777934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6865DC8E-F6C2-4F37-BBAB-B3F8E6777934} = {B79E84F9-6419-497C-A61D-00ECF4E166B1}
 	EndGlobalSection
 EndGlobal
