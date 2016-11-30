@@ -34,15 +34,14 @@ namespace TankWar.Core
             return response;
         }
 
-        public HttpResponseMessage GetCommand(string mapPayLoad)
+        public HttpResponseMessage GetCommand(string command)
         {
-            _root = JsonConvert.DeserializeObject<RootObject>(mapPayLoad);
 
-            var command = new Command { command = "turn-left" };//default
+            var nextCommand = new Command { command = command };//default
 
             var response = new HttpResponseMessage(HttpStatusCode.OK)
             {
-                Content = new StringContent(JsonConvert.SerializeObject(command))
+                Content = new StringContent(JsonConvert.SerializeObject(nextCommand))
             };
             return response;
         }
@@ -98,14 +97,14 @@ namespace TankWar.Core
             return "pass";
         }
 
-        public string Action()
+        public HttpResponseMessage Action()
         {
             if (GetDistanceFromEnemy() > 0 && DoBothFaceEachOther())
             {
-                return MoveForward();
+                return GetCommand(MoveForward());
             }
 
-            return Pass();
+            return GetCommand(Pass());
         }
     }
 }
