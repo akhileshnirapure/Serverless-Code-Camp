@@ -104,7 +104,7 @@ namespace TankWar.Core
                 return GetCommand(MoveForward());
             }
 
-            return GetCommand(Pass());
+            return GetCommand(Fire());
         }
     }
 }
