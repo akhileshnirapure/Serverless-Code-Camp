@@ -11,11 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "command", "command", "{B79E
 		..\command\run.csx = ..\command\run.csx
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{6865DC8E-F6C2-4F37-BBAB-B3F8E6777934}"
-	ProjectSection(SolutionItems) = preProject
-		..\camp-code\bin\TankWar.Core.dll = ..\camp-code\bin\TankWar.Core.dll
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWars.Test", "TankWars.Test\TankWars.Test.csproj", "{AD1DF836-68B6-43B3-BAC5-3F067FA4074A}"
 EndProject
 Global
@@ -65,8 +60,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6865DC8E-F6C2-4F37-BBAB-B3F8E6777934} = {B79E84F9-6419-497C-A61D-00ECF4E166B1}
 	EndGlobalSection
 EndGlobal

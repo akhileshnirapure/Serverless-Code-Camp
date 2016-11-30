@@ -1,5 +1,5 @@
 ﻿{
-  "matchId": "3355a0cb-1453-4c2a-b267-eef855053cd4",
+  "matchId": "da909281-f47f-434d-ab7d-437eb003cea2",
   "mapWidth": 20,
   "mapHeight": 20,
   "wallDamage": 30,
@@ -8,23 +8,55 @@
   "visibility": 7,
   "weaponRange": 5,
   "you": {
-    "direction": "right",
-    "x": 0,
-    "y": 7,
+    "direction": "top",
+    "x": 10,
+    "y": 12,
     "strength": 300,
     "ammo": 1000,
     "status": "static"
   },
-  "enemies": [
-    {
-      "direction": "left",
-      "x": 6,
-      "y": 5,
-      "strength": 300,
-      "ammo": 1000
-    }
-  ],
+  "enemies": [ { "strength": 300 } ],
   "walls": [
+    {
+      "x": 6,
+      "y": 16,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 12,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "strength": 200
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "strength": 200
+    },
     {
       "x": 6,
       "y": 9,
@@ -32,75 +64,85 @@
     },
     {
       "x": 6,
-      "y": 10,
-      "strength": 200
-    },
-    {
-      "x": 5,
-      "y": 7,
-      "strength": 200
-    },
-    {
-      "x": 5,
-      "y": 4,
-      "strength": 200
-    },
-    {
-      "x": 4,
-      "y": 4,
-      "strength": 200
-    },
-    {
-      "x": 3,
-      "y": 10,
-      "strength": 200
-    },
-    {
-      "x": 3,
-      "y": 4,
-      "strength": 200
-    },
-    {
-      "x": 3,
-      "y": 7,
-      "strength": 200
-    },
-    {
-      "x": 3,
-      "y": 2,
-      "strength": 200
-    },
-    {
-      "x": 3,
       "y": 13,
       "strength": 200
     },
     {
-      "x": 3,
-      "y": 3,
-      "strength": 200
-    },
-    {
-      "x": 3,
-      "y": 6,
-      "strength": 200
-    },
-    {
-      "x": 3,
-      "y": 12,
-      "strength": 200
-    },
-    {
-      "x": 3,
+      "x": 6,
       "y": 11,
       "strength": 200
     },
     {
-      "x": 3,
+      "x": 14,
+      "y": 17,
+      "strength": 200
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "strength": 200
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "strength": 200
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "strength": 200
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "strength": 200
+    },
+    {
+      "x": 11,
       "y": 8,
+      "strength": 200
+    },
+    {
+      "x": 11,
+      "y": 18,
       "strength": 200
     }
   ],
-  "suddenDeath": 300,
+  "suddenDeath": 286,
   "fire": []
 }
