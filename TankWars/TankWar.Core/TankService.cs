@@ -103,12 +103,15 @@ namespace TankWar.Core
 
         public HttpResponseMessage Action()
         {
-            if (GetDistanceFromEnemy() > 0 && DoBothFaceEachOther())
-            {
-                return GetCommand(MoveForward());
-            }
+            //if (GetDistanceFromEnemy() > 0 && DoBothFaceEachOther())
+            //{
+            //    return GetCommand(MoveForward());
+            //}
+
+            //return GetCommand(Fire());
 
             return GetCommand(Fire());
+
         }
     }
 }
