@@ -7,29 +7,14 @@ using Newtonsoft.Json;
 using TankWar.Core;
 public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 {
-    log.Info($"Webhook was triggered!");
+    log.Info($"Tank Info was triggered!");
 
     string jsonContent = await req.Content.ReadAsStringAsync();
 
     var tankService = new TankService();
-    var response = tankService.GetInfo();
+    //var response = tankService.GetInfo();
+    var response = tankService.GetCommand(jsonContent);
 
     return response;
 
-//dynamic data = JsonConvert.DeserializeObject(jsonContent);
-
-
-
-//if (data.first == null || data.last == null)
-//{
-//    return req.CreateResponse(HttpStatusCode.BadRequest, new
-//    {
-//        error = "Please pass first/last properties in the input object"
-//    });
-//}
-
-//return req.CreateResponse(HttpStatusCode.OK, new
-//{
-//    greeting = $"Hello {data.first} {data.last}!"
-//});
 }
