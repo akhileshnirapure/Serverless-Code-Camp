@@ -9,10 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camp-code", "camp-code", "{
 	ProjectSection(SolutionItems) = preProject
 		camp-code\function.json = camp-code\function.json
 		..\camp-code\run.csx = ..\camp-code\run.csx
-		camp-code\TankInfo.csx = camp-code\TankInfo.csx
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bin", "bin", "{6865DC8E-F6C2-4F37-BBAB-B3F8E6777934}"
+	ProjectSection(SolutionItems) = preProject
+		..\camp-code\bin\TankWar.Core.dll = ..\camp-code\bin\TankWar.Core.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
