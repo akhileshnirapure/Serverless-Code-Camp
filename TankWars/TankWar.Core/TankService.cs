@@ -42,10 +42,9 @@ namespace TankWar.Core
 
             var response = new HttpResponseMessage(HttpStatusCode.OK)
             {
-                
-                Content = new StringContent(JsonConvert.SerializeObject(nextCommand))
+                Content = new StringContent(JsonConvert.SerializeObject(nextCommand), Encoding.UTF8, "application/json")
             };
-            response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            //response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
 
             return response;
