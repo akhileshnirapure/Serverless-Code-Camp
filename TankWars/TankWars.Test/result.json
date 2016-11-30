@@ -1,5 +1,5 @@
 ﻿{
-  "matchId": "da909281-f47f-434d-ab7d-437eb003cea2",
+  "matchId": "37c076af-8d83-4752-987b-3d25b5763a57",
   "mapWidth": 20,
   "mapHeight": 20,
   "wallDamage": 30,
@@ -8,141 +8,49 @@
   "visibility": 7,
   "weaponRange": 5,
   "you": {
-    "direction": "top",
-    "x": 10,
-    "y": 12,
+    "direction": "left",
+    "x": 17,
+    "y": 0,
     "strength": 300,
     "ammo": 1000,
     "status": "static"
   },
-  "enemies": [ { "strength": 300 } ],
+  "enemies": [
+    {
+      "direction": "top",
+      "x": 19,
+      "y": 3,
+      "strength": 300,
+      "ammo": 1000
+    }
+  ],
   "walls": [
     {
-      "x": 6,
-      "y": 16,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 10,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 12,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 14,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 8,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 15,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 17,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 7,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 9,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 13,
-      "strength": 200
-    },
-    {
-      "x": 6,
-      "y": 11,
+      "x": 17,
+      "y": 5,
       "strength": 200
     },
     {
       "x": 14,
-      "y": 17,
-      "strength": 200
-    },
-    {
-      "x": 14,
-      "y": 15,
+      "y": 5,
       "strength": 200
     },
     {
       "x": 16,
-      "y": 13,
+      "y": 5,
+      "strength": 200
+    },
+    {
+      "x": 18,
+      "y": 5,
       "strength": 200
     },
     {
       "x": 13,
-      "y": 13,
-      "strength": 200
-    },
-    {
-      "x": 15,
-      "y": 13,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 14,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 17,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 9,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 10,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 12,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 11,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 7,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 8,
-      "strength": 200
-    },
-    {
-      "x": 11,
-      "y": 18,
+      "y": 5,
       "strength": 200
     }
   ],
-  "suddenDeath": 286,
+  "suddenDeath": 300,
   "fire": []
 }
