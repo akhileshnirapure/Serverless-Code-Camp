@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankWar.Core", "TankWar.Core\TankWar.Core.csproj", "{26E4047B-0D99-442A-9D0B-665B87DEE834}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camp-code", "camp-code", "{B79E84F9-6419-497C-A61D-00ECF4E166B1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "command", "command", "{B79E84F9-6419-497C-A61D-00ECF4E166B1}"
 	ProjectSection(SolutionItems) = preProject
 		..\camp-code\function.json = ..\camp-code\function.json
 		..\camp-code\run.csx = ..\camp-code\run.csx
