@@ -12,22 +12,24 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
     string jsonContent = await req.Content.ReadAsStringAsync();
 
     var tankService = new TankService();
-    TankInfo data = tankService.GetInfo(jsonContent);
+    var response = tankService.GetInfo();
 
-    //dynamic data = JsonConvert.DeserializeObject(jsonContent);
-    
+    return response;
+
+//dynamic data = JsonConvert.DeserializeObject(jsonContent);
 
 
-    if (data.first == null || data.last == null)
-    {
-        return req.CreateResponse(HttpStatusCode.BadRequest, new
-        {
-            error = "Please pass first/last properties in the input object"
-        });
-    }
 
-    return req.CreateResponse(HttpStatusCode.OK, new
-    {
-        greeting = $"Hello {data.first} {data.last}!"
-    });
+//if (data.first == null || data.last == null)
+//{
+//    return req.CreateResponse(HttpStatusCode.BadRequest, new
+//    {
+//        error = "Please pass first/last properties in the input object"
+//    });
+//}
+
+//return req.CreateResponse(HttpStatusCode.OK, new
+//{
+//    greeting = $"Hello {data.first} {data.last}!"
+//});
 }

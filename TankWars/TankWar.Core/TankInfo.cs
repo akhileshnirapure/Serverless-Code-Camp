@@ -11,6 +11,13 @@ namespace TankWar.Core
         public string owner { get; set; }
     }
 
+    public class Command
+    {
+        public string command
+        {
+            get;set;
+        }
+    }
 
     public class You
     {
