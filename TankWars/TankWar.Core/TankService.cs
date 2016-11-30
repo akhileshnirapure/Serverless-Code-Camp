@@ -16,10 +16,10 @@ namespace TankWar.Core
             
         }
 
-        public TankService(RootObject root)
+        public TankService(string root)
         {
-            _root = root;
-            _enemy = root.enemies.First();
+            _root = JsonConvert.DeserializeObject<RootObject>(root);
+            _enemy = _root.enemies.First();
         }
         private RootObject _root;
         private Enemy _enemy;

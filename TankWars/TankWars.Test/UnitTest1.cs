@@ -14,7 +14,7 @@ namespace TankWars.Test
         [TestInitialize]
         public void Init()
         {
-            var result = JsonConvert.DeserializeObject<RootObject>(File.ReadAllText(@"C:\Users\LocalAdmin\Source\Repos\Serverless-Code-Camp\TankWars\TankWars.Test\result.json"));
+            var result = File.ReadAllText(@"C:\Users\LocalAdmin\Source\Repos\Serverless-Code-Camp\TankWars\TankWars.Test\result.json");
 
             _service = new TankService(result);
         }
