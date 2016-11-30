@@ -1,5 +1,5 @@
 #r "Newtonsoft.Json"
-#r "TankWar.Core"
+#r "TankWar.Core.dll"
 
 using System;
 using System.Net;

@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "camp-code", "camp-code", "{B79E84F9-6419-497C-A61D-00ECF4E166B1}"
 	ProjectSection(SolutionItems) = preProject
 		camp-code\function.json = camp-code\function.json
+		..\camp-code\run.csx = ..\camp-code\run.csx
 		camp-code\TankInfo.csx = camp-code\TankInfo.csx
 	EndProjectSection
 EndProject
