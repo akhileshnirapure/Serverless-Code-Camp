@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -44,8 +45,8 @@ namespace TankWar.Core
                 
                 Content = new StringContent(JsonConvert.SerializeObject(nextCommand))
             };
+            response.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-            response.Headers.Add("Content-Type", "application/json");
 
             return response;
         }
