@@ -11,9 +11,9 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 
     string jsonContent = await req.Content.ReadAsStringAsync();
 
-    var tankService = new TankService();
+    var tankService = new TankService(jsonContent);
     //var response = tankService.GetInfo();
-    var response = tankService.GetCommand(jsonContent);
+    var response = tankService.Action();
 
     return response;
 

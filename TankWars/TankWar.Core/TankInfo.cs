@@ -30,6 +30,12 @@ namespace TankWar.Core
         public int targetRange { get; set; }
     }
 
+    public class Point
+    {
+        public int x { get; set; }
+        public int y { get; set; }
+    }
+
     public class Enemy
     {
         public string direction { get; set; }
